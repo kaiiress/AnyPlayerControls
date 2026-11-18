@@ -2,7 +2,7 @@
 
 A [Vencord](https://github.com/Vendicated/Vencord) userplugin for Vesktop/Discord that shows a small media player (album art, title, artist, progress bar, previous / play-pause / next) above your account panel, like SpotifyControls, but for **any media player on Linux that supports MPRIS**.
 
-It talks to your player through [`playerctl`](https://github.com/altdesktop/playerctl), so it works with whatever shows up in `playerctl -l`: Navidrome clients (Feishin, Supersonic, ...), Spotify, VLC, mpv (with an MPRIS script), Strawberry, Firefox/Chromium tabs, and so on.
+<img src="screenshot.png" width="360" alt="AnyPlayerControls widget">
 
 > ## ⚠️ Disclaimer: this is vibe-coded
 > This plugin was written with AI assistance (Claude) and only lightly tested, on one setup (CachyOS + Vesktop + Feishin/Navidrome). Expect rough edges. It comes with **no warranty**, and I can't promise it will keep working after Discord, Vesktop or Vencord updates. Read the code before you run it, especially `native.ts`, which executes `playerctl` on your machine. Not affiliated with or endorsed by Vencord, Vesktop, Discord or Navidrome.
